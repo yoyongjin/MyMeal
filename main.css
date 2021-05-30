@@ -1,0 +1,128 @@
+/* 전체 모바일 화면 틀 (아이폰12 기준) */
+.wrap {
+  box-sizing: border-box;
+  width: 1170px;
+  height: 2532px;
+  border: solid 10px orange; 
+  border-radius: 25px;
+  background-color: rgb(255, 253, 253);
+}
+
+/* main__top */
+.main__top {
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  font-family: Nanum Gothic;
+}
+
+/* main__mid */
+.main__mid__line {
+  width: 1170pxpx;
+  height: 2px;
+  border-radius: 1px;
+  background-color: rgb(225, 215, 215);
+}
+
+/* main__customizing */
+.main__customizing {
+  width : 100%;
+  height: 500px;
+  /* background-color: lightgreen; */
+}
+.main__customizing__wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+}
+.main__customizing__1 {
+  background-color: orange;
+  border-radius: 60px;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+.main__customizing__2 {
+  background-color: orange;
+  border-radius: 60px;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+/* main__best */
+.main__best {  
+  width: 100%;
+  height: 500px;
+  /* background-color: lightyellow; */
+}
+.main__best__menu {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly
+}
+.main__best__food1, .main__best__food2, .main__best__food3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(196, 192, 192);
+}
+
+/* main__my */
+.main__my {
+  width: 100%;
+  height: 800px;
+  /* background-color: lightblue; */
+}
+.main__my__list {
+  list-style: none;
+}
+
+/* main__bottom */
+.main__bottom {
+  background-color: #6FCC98;
+  height: 100px;
+}
+
+/*best pick & community page contents*/
+@font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  src:url("font/NanumGothicCoding.ttf") format(truetype);
+}
+
+.title {
+  font-size: 35pt;
+  font-family: Nanum Gothic;
+  margin-left: 80pt;
+}
+
+.sub_title {
+  font-size: 22pt;
+  font-family: Nanum Gothic; 
+  font-weight: 600;
+}
+
+.menu_box{
+  border-style: solid; width: 900px; height: 110px; padding: 24px; word-break: break-all;  
+  border-color: rgb(189, 216, 157); background-color:rgb(189, 216, 157); margin:0 auto;
+  font-family: Nanum Gothic;
+  font-size:18pt;
+}
+
+  .s1 {
+    color: #eee;
+    display: inline-block;
+    width: 90px;
+    background-color: rgb(220, 159, 80);
+    text-align: center;
+}
+
+.s1_title {
+  font-size: 32pt;
+  font-family: Nanum Gothic; 
+  font-weight: 800;
+  margin-left: 80pt;
+  margin-right: 8pt;
+}
